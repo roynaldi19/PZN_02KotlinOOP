@@ -1,4 +1,5 @@
-package `05Constructor`
+
+package `06InitializerBlock`
 
 fun main() {
     val toyota = Car("Avanza", null)
