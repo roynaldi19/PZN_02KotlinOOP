@@ -7,6 +7,4 @@ fun main() {
     val aplikasi = Aplikasi("Aplikasi Android")
     val app = App("Kotlin App")
 
-    aplikasi.tuUpper
-
 }
