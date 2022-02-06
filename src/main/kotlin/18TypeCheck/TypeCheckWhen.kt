@@ -5,7 +5,7 @@ fun printObjectWhitWhen(any: Any) { //any dapat menerima parameter dalam bentuk 
         is Laptop -> {
             println("Laptop whit name ${any.name}") // disini any berubah menjadi Laptop
         }
-        is Handphone -> {
+        is HandPhone -> {
             println("HandPhone whir name ${any.name}")
         }
         else -> {
@@ -19,6 +19,6 @@ fun main() {
     printObjectWhitWhen("Roy")
     printObjectWhitWhen(1)
     printObjectWhitWhen(Laptop("Acer"))
-    printObjectWhitWhen(Handphone("Xiomy"))
+    printObjectWhitWhen(HandPhone("Xiomy"))
 
 }

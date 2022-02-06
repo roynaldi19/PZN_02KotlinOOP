@@ -6,9 +6,5 @@ open class Shape {
 
 class Rectangle : Shape() {
     override val corner: Int = 4
-    val parentCorner: Int = super.corner
-}
-
-class Triangle : Shape() {
-    override val corner: Int = 3
+    val parentCorner: Int = super.corner //super mengambil coner milik parent class
 }

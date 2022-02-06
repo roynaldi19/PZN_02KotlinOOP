@@ -2,6 +2,6 @@ package `17AnyClass`
 
 class Laptop(val name: String)
 
-open class Handphone(val name: String)
+open class HandPhone(val name: String)
 
-class SmartPhone(name: String, val os:String): Handphone(name)
+class SmartPhone(name: String, val os:String): HandPhone(name)

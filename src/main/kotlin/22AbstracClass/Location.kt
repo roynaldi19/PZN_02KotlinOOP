@@ -1,7 +1,5 @@
 package `22AbstracClass`
 
-abstract class Location(val name: String)
+abstract class Location(val name: String) // tidak bisa dibuat objek, hanya bisa di warisi
 
 class City(name: String) : Location(name)
-
-class Country(name: String) : Location(name)
