@@ -1,4 +1,3 @@
 package `02Class`
 
-class Person {
-}
+class Person

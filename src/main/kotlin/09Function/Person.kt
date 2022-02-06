@@ -10,7 +10,7 @@ class Person {
     }
 
     fun run() {
-        println("Im Run")
+        println("I'm Run")
     }
 
     fun getFullName(): String {

@@ -9,7 +9,7 @@ class Person {
         println("Hello $name, My name is $firstName")
     }
     fun sayHello(firstName: String, lastName: String) {
-        println("Hello $firstName $lastName, My Name is ${this.firstName}")
+        println("Hello $firstName $lastName, My Name is ${this.firstName}") // this mengambil propertis student
     }
 
 }

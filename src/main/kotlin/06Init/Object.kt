@@ -1,4 +1,5 @@
-package `05Constructor`
+
+package `06Init`
 
 fun main() {
     val avanza = Car("Toyota", null)

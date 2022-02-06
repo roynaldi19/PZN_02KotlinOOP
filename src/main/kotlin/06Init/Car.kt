@@ -1,4 +1,4 @@
-package `06InitializerBlock`
+package `06Init`
 
 class Car(brandParam: String, soldParam: String?, yearParam: String = "2000" ) {
 

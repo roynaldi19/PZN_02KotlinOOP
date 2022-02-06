@@ -6,11 +6,11 @@ class Car(brandParam: String, nameParam: String, yearParam: Int) {
         println("Car $brandParam dibuat")
     }
 
-    constructor(brandParam: String, nameParam: String) : this(brandParam, nameParam, 2020) {
-        println("Secondary Construktor 1")
+    constructor(brandParam: String, nameParam: String) : this(brandParam, nameParam, 2020) { // memnggil primamary constractor
+        println("Secondary Construktor")
     }
 
-    constructor(brandParam: String) : this(brandParam, "") {
+    constructor(brandParam: String) : this(brandParam, "") { // memnaggil secondari constroktort
         println("Secondary Construktor 2")
     }
 
