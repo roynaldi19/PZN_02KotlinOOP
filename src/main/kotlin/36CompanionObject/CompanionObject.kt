@@ -1,6 +1,5 @@
 package `36CompanionObject`
 
 fun main() {
-    Application.tuUpper("Roy")
-
+    println(Application.tuUpper("Roy"))
 }
