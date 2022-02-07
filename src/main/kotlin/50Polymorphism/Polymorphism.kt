@@ -1,7 +1,7 @@
 package `50Polymorphism`
 
 fun main() {
-    var employee = Employe("Roy")
+    var employee = Employee("Roy")
     employee.sayHello("Budi")
 
     employee = Manager("Roy")

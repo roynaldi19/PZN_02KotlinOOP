@@ -1,12 +1,14 @@
 package `50Polymorphism`
 
-open class Employe(val name: String) {
+
+//kemampuan class berubah bentuk
+open class Employee(val name: String) {
     open fun sayHello(name: String) {
         println("Hello $name, My name is ${this.name}")
     }
 }
 
-open class Manager(name: String) : Employe(name) {
+open class Manager(name: String) : Employee(name) {
     override fun sayHello(name: String) {
         println("Hello $name, My name is Manager ${this.name}")
     }
@@ -18,7 +20,7 @@ class ViceManager(name: String): Manager(name){
     }
 }
 
-class Supervisor(name: String) : Employe(name) {
+class Supervisor(name: String) : Employee(name) {
     override fun sayHello(name: String) {
         println("Hello $name, My name is Supervisor ${this.name}")
     }
