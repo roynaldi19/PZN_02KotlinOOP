@@ -1,4 +1,4 @@
 package `45Exception`
 
-class ValidationException(message: String) : Throwable(message) {
-}
+// disarankan membuat Exception sendiri seperti ini dari pada smuaa nya menggunakan kelas Throwable
+class ValidationException(message: String) : Throwable(message)
