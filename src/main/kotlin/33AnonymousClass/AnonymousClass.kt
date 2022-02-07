@@ -6,7 +6,7 @@ fun fireAction(action: Action) {
 
 
 fun main() {
-    fireAction(object : Action { //anonim class
+    fireAction(object : Action { //anonim class yang di delarasikan di dalam function
         override fun action() {
             println("action one")
         }
