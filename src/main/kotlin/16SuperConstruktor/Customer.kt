@@ -13,3 +13,12 @@ class PremiumCustomer : Customer {
 class ExecutiveCustomer(name: String, balance: Long) : Customer(name, "Executive", balance) {
     constructor(name: String) : this(name, 0)
 }
+
+fun main() {
+    val premiumCustomer = PremiumCustomer("Roynaldi")
+    println(premiumCustomer.name)
+
+    val executiveCustomer = ExecutiveCustomer("Kidd", 1_000_000)
+    println(executiveCustomer.name)
+    println(executiveCustomer.balance)
+}

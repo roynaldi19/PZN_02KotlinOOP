@@ -11,3 +11,18 @@ class Car(brandParam: String, soldParam: String?, yearParam: String = "2000" ) {
     var year: String = yearParam
 
 }
+
+fun main() {
+    val toyota = Car("Avanza", null)
+    val wuling = Car("Almaz", "Sold", "2021")
+
+    println()
+
+    println(toyota.brand)
+    println(toyota.sold)
+    println(toyota.year)
+    println()
+    println(wuling.brand)
+    println(wuling.sold)
+    println(wuling.year)
+}
