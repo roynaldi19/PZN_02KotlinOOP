@@ -6,3 +6,8 @@ class User(var userName: String, var pass: String) {
     }
 
 }
+
+fun main() {
+    val user = User("Roynaldi", "rahasia")
+    println(user)
+}
