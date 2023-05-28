@@ -8,3 +8,8 @@ fun Student?.sayHello(name: String){ // extension function bersifat di luar kela
     }
 
 }
+
+fun main() {
+    val student = Student("Roy", 29 )
+    student.sayHello("Eko")
+}

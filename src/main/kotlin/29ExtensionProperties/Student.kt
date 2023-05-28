@@ -10,3 +10,9 @@ fun Student?.sayHello(name: String) {
 
 val Student.upperName: String
     get() = this.name.toUpperCase()
+
+fun main() {
+    val student :Student? = Student("Roy", 29 )
+    student.sayHello("Eko")
+    println(student?.upperName)
+}
