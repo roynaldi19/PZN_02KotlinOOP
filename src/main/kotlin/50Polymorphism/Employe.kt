@@ -25,3 +25,17 @@ class Supervisor(name: String) : Employee(name) {
         println("Hello $name, My name is Supervisor ${this.name}")
     }
 }
+
+fun main() {
+    var employee = Employee("Roy")
+    employee.sayHello("Budi")
+
+    employee = Manager("Roy")
+    employee.sayHello("Budi")
+
+    employee = ViceManager("Roy")
+    employee.sayHello("Budi")
+
+    employee = Supervisor("Roy")
+    employee.sayHello("Budi")
+}
