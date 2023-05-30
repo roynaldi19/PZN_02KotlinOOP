@@ -7,3 +7,10 @@ object Utilities {
         return value.toUpperCase()
     }
 }
+
+fun main() {
+    val result = Utilities.toUpper("Roy")
+    println(result)
+    println(Utilities.name)
+
+}

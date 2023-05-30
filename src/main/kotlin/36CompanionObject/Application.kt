@@ -7,3 +7,7 @@ class Application(val name: String) {
         }
     }
 }
+
+fun main() {
+    println(Application.tuUpper("Roy"))
+}

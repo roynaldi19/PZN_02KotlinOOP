@@ -7,3 +7,10 @@ class Account(description: String = "") {
         println("${property.name} is changed from $oldValue to $newValue")
     }
 }
+
+fun main() {
+    val account = Account()
+    account.description = "Contoh"
+    account.description = "Di Ubah"
+    account.description = "Hello World"
+}
